@@ -29,7 +29,7 @@ pod "MARLimitable"
 
 ## Author
 
-Maru-zhang, 475435200@qq.com
+Maru-zhang, maru-zhang@foxmail.com
 
 ## License
 
