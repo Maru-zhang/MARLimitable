@@ -9,7 +9,14 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Usage
+
+MARLimitable Category is easy to use, you just need to set `maxLength` property with the value you wanted.It's done,have fun guys!
+
+```
+UITextField *textField = [[UITextField alloc] initWithFrame:CGRectMake(0, 0, 100, 50)];
+textField.maxLength = 20;
+```
 
 ## Installation
 
