@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A89FE452FAFF49607C39480B /* Pods_MARLimitable_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255E5DEC3DAD0B0C063C3DF7 /* Pods_MARLimitable_Example.framework */; };
+		AF3C0C1F1E0A7A43002644DD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF3C0C1E1E0A7A43002644DD /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 		0993B66CC0C9465A0A6640DB /* Pods-MARLimitable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MARLimitable_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MARLimitable_Example/Pods-MARLimitable_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1D463035D43A339F4D158CCD /* Pods-MARLimitable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MARLimitable_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MARLimitable_Example/Pods-MARLimitable_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		255E5DEC3DAD0B0C063C3DF7 /* Pods_MARLimitable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MARLimitable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3938AB6977A0D683F13A9221 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3938AB6977A0D683F13A9221 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MARLimitable_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MARLimitable_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,11 +60,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		63CF546AF2AFFA7E5663734C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		63CF546AF2AFFA7E5663734C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A176B7D454648161C4EE22E5 /* Pods_MARLimitable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MARLimitable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3C0C1E1E0A7A43002644DD /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../Launch Screen.storyboard"; sourceTree = "<group>"; };
 		B42781412E5AFDE8FB502A68 /* Pods-MARLimitable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MARLimitable_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MARLimitable_Tests/Pods-MARLimitable_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BCF3C36AEF5901D5157618B8 /* MARLimitable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MARLimitable.podspec; path = ../MARLimitable.podspec; sourceTree = "<group>"; };
+		BCF3C36AEF5901D5157618B8 /* MARLimitable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MARLimitable.podspec; path = ../MARLimitable.podspec; sourceTree = "<group>"; };
 		E7F74110EA1564E7950910D5 /* Pods-MARLimitable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MARLimitable_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MARLimitable_Tests/Pods-MARLimitable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,6 +135,7 @@
 				6003F59C195388D20070C39A /* MARAppDelegate.h */,
 				6003F59D195388D20070C39A /* MARAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				AF3C0C1E1E0A7A43002644DD /* Launch Screen.storyboard */,
 				6003F5A5195388D20070C39A /* MARViewController.h */,
 				6003F5A6195388D20070C39A /* MARViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
@@ -247,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Maru-zhang";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 678WD436L9;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -278,6 +284,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				AF3C0C1F1E0A7A43002644DD /* Launch Screen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,7 +444,7 @@
 		6003F5BD195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -471,13 +478,14 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
 		6003F5BE195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -503,6 +511,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -512,13 +521,15 @@
 			baseConfigurationReference = 1D463035D43A339F4D158CCD /* Pods-MARLimitable_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 678WD436L9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MARLimitable/MARLimitable-Prefix.pch";
 				INFOPLIST_FILE = "MARLimitable/MARLimitable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -528,13 +539,15 @@
 			baseConfigurationReference = 0993B66CC0C9465A0A6640DB /* Pods-MARLimitable_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 678WD436L9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MARLimitable/MARLimitable-Prefix.pch";
 				INFOPLIST_FILE = "MARLimitable/MARLimitable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

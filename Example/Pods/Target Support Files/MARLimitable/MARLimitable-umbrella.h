@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UITextField+Limitable.h"
 
 FOUNDATION_EXPORT double MARLimitableVersionNumber;
 FOUNDATION_EXPORT const unsigned char MARLimitableVersionString[];

@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -14,14 +18,68 @@
                         <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="yZd-tr-Y2D">
+                                <rect key="frame" x="87" y="318" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ddI-tt-4Qa"/>
+                                    <constraint firstAttribute="width" constant="200" id="tSo-tS-2rM"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="cyI-at-3EW">
+                                <rect key="frame" x="87" y="448" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="CEb-ql-OBM"/>
+                                    <constraint firstAttribute="height" constant="30" id="Zbg-Ka-ZTK"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="8v4-I0-uFu">
+                                <rect key="frame" x="87" y="188" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="kfE-64-hBw"/>
+                                    <constraint firstAttribute="width" constant="200" id="lc5-Uq-cjb"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="yZd-tr-Y2D" firstAttribute="top" secondItem="8v4-I0-uFu" secondAttribute="bottom" constant="100" id="3R4-fb-QoC"/>
+                            <constraint firstItem="cyI-at-3EW" firstAttribute="top" secondItem="yZd-tr-Y2D" secondAttribute="bottom" constant="100" id="8xw-y7-vIv"/>
+                            <constraint firstItem="yZd-tr-Y2D" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" id="ZkR-MN-XJw"/>
+                            <constraint firstItem="yZd-tr-Y2D" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="gwL-2K-VEh"/>
+                            <constraint firstItem="cyI-at-3EW" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="oXT-5x-Rwz"/>
+                            <constraint firstItem="8v4-I0-uFu" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="y4I-2d-YVd"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="7Ei-2d-Flr" appends="YES" id="EyH-D9-iDC"/>
+                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="textField_1" destination="8v4-I0-uFu" id="p7p-AU-vaM"/>
+                        <outlet property="textField_2" destination="yZd-tr-Y2D" id="VWw-Yp-8do"/>
+                        <outlet property="textField_3" destination="cyI-at-3EW" id="vSD-Rf-PLw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="7Ei-2d-Flr">
+                    <connections>
+                        <action selector="tapAction:" destination="whP-gf-Uak" id="RIJ-n3-ozS"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="305" y="433"/>
+            <point key="canvasLocation" x="304.80000000000001" y="432.23388305847078"/>
         </scene>
     </scenes>
 </document>

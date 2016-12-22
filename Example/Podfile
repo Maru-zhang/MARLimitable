@@ -1,7 +1,8 @@
 use_frameworks!
 
 target 'MARLimitable_Example' do
-  pod 'MARLimitable', :path => '../'
+#  pod 'MARLimitable', :path => '../'
+    pod 'MARLimitable'
 
   target 'MARLimitable_Tests' do
     inherit! :search_paths
